@@ -28,7 +28,7 @@ const CalcDate = () => {
       </div>
       <div style={{ display: "flex" }}>
         <div style={{ width: "145px" }}>
-          <label htmlFor="date-today">Hoje</label>
+          <span style={{display: "block"}}>Hoje</span>
           <input id="date-today" type="date" disabled={true} value={today} />
           <div style={{ marginTop: "20px" }}>
             <div style={{ marginBottom: "5px" }}>
