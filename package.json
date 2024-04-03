@@ -2,7 +2,7 @@
   "name": "tools",
   "private": true,
   "version": "0.1.0",
-  "homepage": "https://AntonioRCS.github.io/tools/",
+  "homepage": "https://antoniorcs.github.io/tools/",
   "type": "module",
   "scripts": {
     "predeploy" : "npm run build",
