@@ -1,0 +1,12 @@
+.landing-page {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  grid-template-rows: auto 1fr;
+  grid-template-columns: 150px 1fr;
+}
+
+.body-container {
+  margin-top: 16px;
+  margin-right: 20px;
+}

@@ -1,0 +1,51 @@
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeOut {
+  100% {
+    opacity: 1;
+  }
+  0% {
+    opacity: 0;
+  }
+}
+
+.sidebar-container {
+  grid-column: 1 / 2;
+  grid-row: 2 / -1;
+  display: flex;
+  width: 30px;
+  padding-left: 10px;
+}
+
+.sidebar-container:hover {
+  width: 100px;
+}
+
+.sidebar-list {
+  list-style-type: none;
+  padding: 0px;
+}
+
+.sidebar-list-text {
+  animation: fadeIn 0.7s;
+}
+
+.sidebar-list-btn {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  border-radius: 5%;
+}
+
+.sidebar-list-btn:hover {
+  transition: background-color 0.5s;
+  background-color: #3c3c3c;
+  cursor: pointer;
+}
