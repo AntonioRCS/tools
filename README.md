@@ -1,4 +1,4 @@
-# Ferramentas
+# Ferramentas:
 
 Um site com 2 ferramentas (calculo de data e divisor de memo).
 Para auxiliar atendentes.
@@ -7,6 +7,7 @@ Para auxiliar atendentes.
 
 HTML, CSS, JS e React
 
-## Como inciar
+## Como inciar:
   npm i
+  
   npm run dev
