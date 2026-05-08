@@ -17,7 +17,7 @@ const Header = () => {
             style={{ cursor: "pointer" }}
             onClick={() => onClickHandler("/")}
           >
-            Doodles and Helpful Tools
+            Ferramentas
           </span>
         </div>
         <div className="header-subtitle">
@@ -25,7 +25,7 @@ const Header = () => {
             style={{ cursor: "pointer" }}
             onClick={() => onClickHandler("/")}
           >
-            Made by Antônio Ricardo
+            Feito por Antônio Ricardo
           </span>
         </div>
       </div>
